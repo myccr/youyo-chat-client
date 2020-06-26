@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- 引入样式 -->
+        <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+        <title>开发测试</title>
+    </head>
+    <body>
+        <div id="app">
+            <mini-window/>
+        </div>
+        <!-- 引入组件库 -->
+        <script src="./node_modules/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    </body>
+    <script src="./dist/youyo-chat.js"></script>
+    <script>
+      Vue.component('YouyoChat',{})
+      new Vue({
+        el: '#app'
+      })
+    </script>
+</html>
+
