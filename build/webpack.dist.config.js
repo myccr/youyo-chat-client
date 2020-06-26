@@ -69,7 +69,7 @@ module.exports.plugins = (module.exports.plugins || []).concat([
   new webpack.DefinePlugin({
     'process.env': {
       NODE_ENV: '"production"',
-      VUE_APP_BASE_API: '"http://localhost:8081/kfAdmin"'
+      VUE_APP_BASE_API: '"https://leisurely.cool:8181/kfAdmin"'
     }
   }),
   new webpack.optimize.UglifyJsPlugin({

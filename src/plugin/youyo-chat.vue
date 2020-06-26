@@ -154,7 +154,6 @@ export default {
           this.currentConversation = resp.data
           this.getMessageList()
         } else {
-          // TODO 添加逻辑处理
           this.$message({
             message: '没有在线客服',
             type: 'warning',

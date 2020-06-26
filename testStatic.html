@@ -18,7 +18,11 @@
     </body>
     <script src="./dist/youyo-chat.js"></script>
     <script>
-      Vue.component('YouyoChat',{})
+        Vue.prototype.$authInfo = {
+            webId: '1269874137354485761',
+            orgi: '1260171124082262017'
+        }
+      Vue.component('YouyoChat')
       new Vue({
         el: '#app'
       })
